@@ -6,7 +6,7 @@ import {
     Users,
     Flag,
 } from "lucide-react";
-import { NavItem } from "./Navitem";
+import { NavItem } from "../Navitem";
 export function MainNavigation() {
     return (
         <nav className="space-y-0.5">
