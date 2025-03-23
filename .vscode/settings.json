@@ -1,0 +1,29 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.tabSize": 4, // Define o tamanho da indentação como 4 espaços
+    "editor.insertSpaces": true, // Usa espaços em vez de tabulações
+    "prettier.tabWidth": 4, // Define a largura da tabulação para o Prettier
+    "prettier.useTabs": false, // Usa espaços em vez de tabs no Prettier
+    "[javascript]": {
+        // Configuração específica para JavaScript
+        "editor.tabSize": 4
+    },
+    "[typescript]": {
+        // Configuração específica para TypeScript
+        "editor.tabSize": 4
+    },
+    "[json]": {
+        // Configuração específica para JSON
+        "editor.tabSize": 4
+    }
+}
