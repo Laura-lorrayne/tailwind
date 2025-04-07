@@ -12,7 +12,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="pt-br">
+        <html lang="pt-br" className="antialiased">
             <body>
                 <div className="relative min-h-screen dark:bg-zinc-900 lg:grid lg:grid-cols-app">
                     <Sidebar />
